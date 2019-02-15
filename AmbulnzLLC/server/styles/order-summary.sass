@@ -1,0 +1,16 @@
+.order-summary
+    flex: 1 1 0
+    margin-right: 2vw
+.summary
+    padding: 2vw
+    margin-top: 2vw
+    @include color-mixin(lighten($background-color, 10%))
+    .title
+        text-transform: uppercase
+        font-weight: 600
+        font-size: 2vw
+.confirm-button
+    @include color-mixin(darken($button-color,20%))
+    display: none
+    margin: auto
+

@@ -6,7 +6,7 @@ const webpack = require('webpack');
 module.exports = {
     mode: 'development',
     entry: {
-        index: './server/index.js'
+        index: './server/js/index.js'
 
     },
     devtool: 'inline-source-map',
@@ -16,12 +16,21 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
-            title: 'AmbulnzLLC Frontend Challenge'
+            title: 'Pizza Menu'
         }),
     ],
     output: {
         filename: '[name].bundle.js',
         chunkFilename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist')
+    },
+    module: {
+        rules: [{
+            test: /\.sass$/,
+            use: ['style-loader',
+                'css-loader',
+                "sass-loader"
+            ],
+        }, ],
     }
 };
