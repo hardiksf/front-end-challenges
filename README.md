@@ -1,6 +1,6 @@
 
 # Front End Challenges
 
-| Name | Description |
-| ----------- | ----------- |
-| AmbulnzLLC | https://github.com/AmbulnzLLC/frontend-challenge |
+| Name | Description | Technologies |
+| ---- | ----------- | ------------ |
+| AmbulnzLLC | https://github.com/AmbulnzLLC/frontend-challenge | JavaScript, Webpack, lit-html, SASS |
