@@ -1,6 +1,7 @@
 
 # Front End Challenges
 
-| Name | Description | Technologies |
-| ---- | ----------- | ------------ |
-| AmbulnzLLC | https://github.com/AmbulnzLLC/frontend-challenge | JavaScript, Webpack, lit-html, SASS |
+| Name | Source |
+| ---- | ------ |
+| Working with GitHub API|  |
+| AmbulnzLLC - Pizza ordering app| https://github.com/AmbulnzLLC/frontend-challenge |
