@@ -1,0 +1,35 @@
+.order-summary
+    flex: 1.7 1 0
+    margin-right: 2vw
+.summary
+    padding: 2vw
+    margin-top: 2vw
+    @include color-mixin(lighten($background-color, 10%))
+    .title
+        text-transform: uppercase
+        font-weight: 600
+        font-size: 2vw
+        margin-bottom: 3vw
+.confirm-button
+    @include color-mixin(darken($button-color,20%))
+    display: none
+    margin: auto
+    margin-top: 3vw
+
+.input-number
+    width: 3vw
+    height: 3vw
+    font-size: 1.5vw
+
+.remove-button
+    width: 3vw
+    height: 3vw
+    font-size: 2vw
+    font-weight: 900
+    color: red
+    vertical-align: middle
+
+.order-item
+    text-align: end
+    padding: 3pt
+
