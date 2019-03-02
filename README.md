@@ -4,4 +4,4 @@
 | Name | Source |
 | ---- | ------ |
 | Working with GitHub API|  |
-| AmbulnzLLC - Pizza ordering app| https://github.com/AmbulnzLLC/frontend-challenge |
+| AmbulnzLLC - Pizza Ordering App| https://github.com/AmbulnzLLC/frontend-challenge |

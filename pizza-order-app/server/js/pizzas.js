@@ -19,7 +19,6 @@ const renderPizzas = (locationToRender) => {
 
 const toggleOrderButton = () =>{
 const orderButtons = document.querySelectorAll(".order-button");
-
     // Disables order button if it is already clicked
     orderButtons.forEach(button => button.addEventListener('click', event => {
         updateOrderSummary(event);
@@ -27,6 +26,7 @@ const orderButtons = document.querySelectorAll(".order-button");
         if (button.disabled) {
             button.innerText = `In the cart`;
         }
-    }))};
+    }))
+};
 
 export  {renderPizzas, toggleOrderButton};

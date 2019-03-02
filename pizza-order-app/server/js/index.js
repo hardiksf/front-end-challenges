@@ -16,7 +16,6 @@ createAppendElement("pizzas", renderPizzas, headerElement);
 createAppendElement("order-summary", orderSummary, headerElement);
 
 toggleOrderButton();
-
 removeItem();
 
 const confirmButton = document.querySelector(".confirm-button");

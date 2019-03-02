@@ -13,7 +13,6 @@ const removeItem = () => {
             // Removes pizza entry from order summary
             e.target.parentNode.remove();
         }
-
     });
 };
 
