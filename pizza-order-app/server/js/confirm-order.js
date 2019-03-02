@@ -1,13 +1,25 @@
 import order from '../order.json';
+import { html, render } from 'lit-html';
 
-const summary = document.querySelector(".summary");
-const confirmMessage = document.createElement('div');
-confirmMessage.className = "confirm-message";
-const p = document.createElement('p');
 const time = ((order.deliveryTime) / 1000) / 60;
-p.innerText = `Your order will be delivered in ${time} minutes`;
-confirmMessage.appendChild(p);
+const confirmOrderText = document.querySelector(".confirm-order-text");
+const confirmButton = document.querySelector(".confirm-button");
+
+const confirmMessage1 = html `
+    <div class="confirm-message">
+        <p>Your order will be delivered in ${time} minutes</p>
+    </div>
+`;
+
+const hideConfirmOrderButton = () => {
+    confirmButton.style.display = "none";
+    const orderItems = document.querySelectorAll(".order-item");
+    orderItems.forEach(orderItem => {
+        orderItem.style.display = "none";
+    });
+};
 
 export default () => {
-    summary.appendChild(confirmMessage);
+    render(confirmMessage1, confirmOrderText);
+    hideConfirmOrderButton();
 };

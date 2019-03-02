@@ -33,6 +33,7 @@ const orderSummary = (locationToRender) => {
             <div class="title">Order Summary</div>
             <div class="detail"></div>
             <button class="confirm-button button" type="button">Confirm Order</button>
+            <div class="confirm-order-text"></div>
         </div>
         `);
     render(templateItems, locationToRender);
