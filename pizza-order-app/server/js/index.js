@@ -21,7 +21,7 @@ removeItem();
 // const confirmButton = document.querySelector(".confirm-button");
 // Loads confirm-order module only if confirm button was click
 
-// import CONFIRM_BUTTON from './util/constants';
+// import { CONFIRM_BUTTON } from './util/constants';
 const CONFIRM_BUTTON = document.querySelector(".confirm-button");
 CONFIRM_BUTTON.onclick = () =>
     import ('../js/confirm-order').then(module => {

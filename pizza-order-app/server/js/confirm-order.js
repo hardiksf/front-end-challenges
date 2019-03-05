@@ -19,7 +19,15 @@ const hideConfirmOrderButton = () => {
     });
 };
 
+const disableOrderButtons = () => {
+    const orderButtons = document.querySelectorAll(".order-button");
+    orderButtons.forEach(orderButton => {
+        orderButton.disabled = true;
+    });
+};
+
 export default () => {
     render(confirmMessage1, confirmOrderText);
     hideConfirmOrderButton();
+    disableOrderButtons();
 };
