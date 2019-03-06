@@ -22,7 +22,7 @@ Demo
 * Click `ADD TO CART` button
 ![Add to cart](https://github.com/hardiksf/front-end-challenges/blob/master/pizza-order-app/demo-assets/click%20add%20to%20cart.png)
 
-* On clicking `ADD TO CART` button, 
+* On clicking `ADD TO CART` button
     * Button text changes to `IN THE CART`
     * Added item appears under `ORDER SUMMARY` with name, price, number of items and remove button
 ![Add to cart result](https://github.com/hardiksf/front-end-challenges/blob/master/pizza-order-app/demo-assets/click%20add%20to%20cart%20result.png)
@@ -33,6 +33,7 @@ Demo
 * On clicking remove item button
     * Item is removed from `ORDER SUMMARY` section
     * `ADD TO CART` button for removed item is now clickable
+    * If all items are removed from `ORDER SUMMARY`, `CONFIRM ORDER` button would not display
 ![Remove item result](https://github.com/hardiksf/front-end-challenges/blob/master/pizza-order-app/demo-assets/remove%20item%20result.png)
 
 * Click on `CONFIRM ORDER` button
