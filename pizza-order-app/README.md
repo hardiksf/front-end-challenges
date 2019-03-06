@@ -16,4 +16,5 @@ Technologies
 Demo
 ----
 * On launch:
+
 ![On launch](https://github.com/hardiksf/front-end-challenges/blob/master/pizza-order-app/demo-assets/on%20launch.png)
